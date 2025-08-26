@@ -794,13 +794,12 @@
     width: 100%;
     height: auto;
   }
-
   .logo img {
-    width: 80%;
-    margin-top: 0.3rem;
-    padding: 0.5rem;
+    height: 3.5rem !important;
+    width: 60% !important;
+    margin-left: 8% !important;
+    padding: 3% !important;
   }
-
   .nav-links ul {
     display: none;
   }
