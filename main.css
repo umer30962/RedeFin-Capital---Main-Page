@@ -1,0 +1,1061 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background: linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu_icon {
+  display: none;
+}
+
+.logo img {
+  width: 100%;
+  height: 10vh;
+  padding: 3%;
+  margin-left: 15%;
+  cursor: pointer;
+}
+
+.nav-links {
+  flex-wrap: wrap;
+  margin-right: 5%;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links ul li {
+  font-size: clamp(0.5rem, 0.714vw + 0.271rem, 1.3rem);
+
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100%;
+  filter: blur(1.5px) brightness(0.7);
+  position: relative;
+
+}
+
+.hero-content {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 40%;
+  height: 50%;
+
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: clamp(2rem, 2.679vw + 1.143rem, 5rem);
+  line-height: 1.2;
+  margin-bottom: 3%;
+}
+
+.hero-content p {
+  font-size: clamp(0.8rem, 0.357vw + 0.686rem, 1.2rem);
+  margin-bottom: 3%;
+}
+
+.hero-content button {
+  background: linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: clamp(0.8rem, 0.357vw + 0.686rem, 1.2rem);
+  cursor: pointer;
+}
+
+.card-section {
+  position: relative;
+  width: 100%;
+  padding: 2rem 0;
+  margin-top: -20vh;
+}
+
+.card-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 85%;
+  margin: auto;
+}
+
+.small-card {
+  flex: 1 1 20%;
+  min-width: 260px;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+
+.small-card i {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  padding-top: 15px;
+  background: linear-gradient(to top, rgb(0, 0, 70) 90%, rgb(67, 63, 99));
+  color: white;
+  border-top-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.small-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.small-card p {
+  font-size: 0.9rem;
+  color: gray;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.small-card::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.7rem;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgb(0, 0, 70) 90%, rgb(67, 63, 99));
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+.about-section {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10rem ;
+  padding: 3rem 0;
+}
+.about-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.about-content {
+
+  width: 50%;
+  padding-left: 10%;
+  margin-top: 5%;
+}
+
+.about-content h3 {
+  color: rgb(0, 0, 60);
+  font-size: clamp(1rem, 0.669vw + 0.786rem, 1.7rem);
+  margin-bottom: 1rem;
+}
+
+.about-content h2 {
+
+  font-size: clamp(1.5rem, 1.071vw + 1.143rem, 2.5rem);
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+.about-content p {
+  color: grey;
+  font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem);
+  margin-bottom: 1rem;
+}
+
+.mini-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 3rem;
+  gap: 1rem;
+}
+
+.icon-1,
+.icon-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 1 40%;
+  min-width: 240px;
+
+}
+
+.icon-1 i,
+.icon-2 i {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  padding-top: 15px;
+  text-align: center;
+  background: linear-gradient(to top, rgb(0, 0, 70) 90%, rgb(67, 63, 99));
+  color: white;
+  border-top-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+.icon-text {
+  line-height: 1.2;
+  padding: 0.1rem 0;
+
+}
+
+.icon-1 h3,
+.icon-2 h3 {
+  color: black;
+  margin: 0 1rem;
+  font-size: clamp(1rem, 0.478vw + 0.847rem, 1.5rem);
+}
+
+.icon-1 p,
+.icon-2 p {
+  color: grey;
+  font-size: clamp(0.7rem, 0.574vw + 0.516rem, 1.3rem);
+  margin: 0 1rem;
+}
+
+.about-design {
+  width: 50%;
+  position: relative;
+  padding-left: 5%;
+}
+.filled-hexagon {
+  position: absolute;
+  margin-top: -2rem;
+  margin-left: -0.2rem;
+}
+  .mini-hexa-1,
+.mini-hexa-2,
+.mini-hexa-3 {
+    width: 6.5rem;
+    height: 6.5rem;
+   background:linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    position: absolute;
+}
+
+.mini-hexa-1 {
+    margin-left: 5rem;
+    margin-top: 22rem;
+}
+
+.mini-hexa-2 {
+    margin-left: 5rem;
+    margin-top: 28rem;
+}
+
+.mini-hexa-3 {
+    margin-left: rem;
+    margin-top: 25rem;
+}
+
+
+.main-hexagon {
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/hexa-1.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    position: absolute;
+    margin-left: 6.6rem;
+    margin-top: 4rem;
+}
+
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.875rem;
+    color: #0b0033;
+    border-radius: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 1.0625rem;
+    padding-right: 0.8125rem;
+    background-color: rgb(226, 221, 221);
+    cursor: pointer;
+}
+
+
+.filled-hexagon-after {
+   
+}
+
+.mini2-hexa-1,
+.mini2-hexa-2,
+.mini2-hexa-3 {
+    width: 6.5rem;
+    height: 6.5rem;
+    background:linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.mini2-hexa-1 {
+    margin-left: 22rem;
+    margin-top: 1.5rem;
+}
+
+.mini2-hexa-2 {
+    margin-left: 27rem;
+    margin-top: -9.5rem;
+}
+
+.mini2-hexa-3 {
+    margin-left: 27rem;
+    margin-top: -0.5rem;
+}
+
+
+
+
+.service-section {
+  padding: 5% 0;
+  background-color: rgb(211, 211, 211);
+  gap: 2rem;
+}
+
+.service-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.service-content {
+  width: 30%;
+  margin-left: 10%;
+
+}
+
+
+.service-content h3 {
+
+  color: rgb(0, 0, 60);
+  font-size: clamp(1rem, 0.669vw + 0.786rem, 1.7rem);
+  margin-bottom: 1rem;
+}
+
+.service-content h2 {
+  width: 70%;
+  font-size: clamp(1.5rem, 1.071vw + 1.143rem, 2.5rem);
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+.service-content p {
+  color: rgb(0, 0, 60);
+  font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem);
+  margin-bottom: 1rem;
+}
+
+.service-content button {
+  background: linear-gradient(to top, rgb(0, 0, 90) 80%, rgb(67, 63, 99));
+  color: white;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: clamp(0.8rem, 0.357vw + 0.686rem, 1.2rem);
+  cursor: pointer;
+}
+
+.service-cards {
+  display: flex;
+  height: auto;
+  gap: 1rem;
+  width: 60%;
+  padding-left: 5%;
+  margin-top: 2%;
+  flex: 1 1 800px;
+  min-width: 60%;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+.s-card {
+  position: relative;
+  background: linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+  width: 15rem;
+  height: 20rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 200px;
+  flex-wrap: wrap;
+}
+
+
+.s-card i {
+  margin-top: 3.75rem;
+  font-size: clamp(1.5rem, 1.912vw + 0.888rem, 3.5rem);
+  margin-bottom: 2rem;
+}
+
+.s-card h3 {
+  font-size: clamp(0.9rem, 0.574vw + 0.716rem, 1.5rem);
+
+  margin-bottom: 1rem;
+}
+
+.s-card p {
+  font-size: clamp(0.6rem, 0.382vw + 0.478rem, 1rem);
+  margin: 0 1rem 1rem;
+}
+
+.we-section {
+  width: 100%;
+  gap: 2rem;
+  display: flex;
+  padding-bottom: 5rem;
+}
+
+
+
+.we-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.we-design {
+  padding-left: 10%;
+  width: 50%;
+  
+}
+.filled-hexagon-2-up {
+    position: absolute;
+    margin-left: 1rem;
+}
+.mini-2nd-hexa-1,
+.mini-2nd-hexa-2,
+.mini-2nd-hexa-3 {
+    width: 6rem;
+    height: 6rem;
+   background:linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.mini-2nd-hexa-1 {
+    margin-top: 3rem;
+}
+
+.mini-2nd-hexa-2 {
+  
+}
+
+.mini-2nd-hexa-3 {
+    margin-left: 5rem;
+    margin-top: -9rem;
+}
+
+
+.filled-hexagon-2-down {
+    position: absolute;
+     margin-left: 1rem;
+    margin-top: 18rem;
+}
+   
+
+
+.Mini-2nd-hexa-1,
+.Mini-2nd-hexa-2,
+.Mini-2nd-hexa-3 {
+    width: 6rem;
+    height: 6rem;
+   background:linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.Mini-2nd-hexa-1 {
+    margin-top: 6rem;
+}
+
+.Mini-2nd-hexa-2 {
+   
+}
+
+.Mini-2nd-hexa-3 {
+    margin-left: 5rem;
+    margin-top: -9rem;
+}
+
+.main-hexagon-2 {
+    width: 17rem;
+    height: 17rem;
+    background-image: url(/images/hexa-2.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 11rem;
+}
+
+
+.filled-hexagon-2-after {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: -1rem;
+}
+
+.mini2-2nd-hexa-1,
+.mini2-2nd-hexa-2,
+.mini2-2nd-hexa-3 {
+    width: 6rem;
+    height: 6rem;
+   background:linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.mini2-2nd-hexa-1 {
+    margin-left: 20rem;
+    margin-top: 12rem;
+}
+
+.mini2-2nd-hexa-2 {
+    margin-left: 20rem;
+}
+
+.mini2-2nd-hexa-3 {
+    margin-left: 25rem;
+    margin-top: -9rem;
+}
+
+/* css css css */
+.we-content{
+  width: 50%;
+  padding-top: 5%;
+  padding-left: 5%;
+ 
+}
+.we-content h3 {
+  color: rgb(0, 0, 60);
+  font-size: clamp(1rem, 0.669vw + 0.786rem, 1.7rem);
+  margin-bottom: 1rem;
+}
+.we-content h2 {
+  width: 70%;
+  font-size: clamp(1.5rem, 1.071vw + 1.143rem, 2.5rem);
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+.we-content p {
+  width: 90%;
+  color: grey;
+  font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem);
+  margin-bottom: 1rem;
+}
+
+.we-scale label{
+  font-size: clamp(0.8rem, 0.357vw + 0.686rem, 1.2rem);
+  color: black;
+
+}
+
+.we-scale input {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.director-section{
+  width: 100%;
+  background-color: rgb(211, 211, 211);
+  padding-bottom: 10rem;
+  height: auto;
+  padding-top: 5rem;
+}
+
+.director-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.director-content {
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.director-content h3 {
+  color: rgb(0, 0, 60);
+  font-size: clamp(1rem, 0.669vw + 0.786rem, 1.7rem);
+  margin-bottom: 1rem;
+}
+
+.director-content h2 {
+  width: 50%;
+  font-size: clamp(1.5rem, 1.071vw + 1.143rem, 2.5rem);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.director-content p {
+  width: 70%;
+  color: rgb(0, 0, 60);
+  font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem);
+  margin-bottom: 1rem;
+}
+
+.director-design{
+  width: 50%;
+  position: relative;
+}
+
+.filled-hexagon-director {
+  margin-left: -1.5rem;
+  margin-top: -1rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.dir-hexa-1,
+.dir-hexa-2,
+.dir-hexa-3 {
+    width: 5rem;
+    height: 5rem;
+   background:linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.dir-hexa-1 {
+    margin-left: 10rem;
+    margin-top: -3rem;
+}
+
+.dir-hexa-2 {
+    margin-left: 6rem;
+    margin-top: -2.5rem;
+}
+
+.dir-hexa-3 {
+    margin-left: 10rem;
+    margin-top: -2.5rem;
+}
+
+.main-hexagon-director {
+    width: 9rem;
+    height: 9rem;
+    background-image: url(/images/hexa-3.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    position: absolute;
+    margin-left: -2.5rem;
+    margin-top: 1rem;
+    z-index: 1;
+}
+
+.filled-hexagon-director-after {
+  margin-top: -1rem;
+  margin-left: 0.5rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.dir2-hexa-1,
+.dir2-hexa-2,
+.dir2-hexa-3 {
+    width: 5rem;
+    height: 5rem;
+  background:linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+.dir2-hexa-1 {
+    margin-left: 0rem;
+    margin-top: 11rem;
+}
+
+.dir2-hexa-2 {
+    margin-left: 4rem;
+    margin-top: -2.5rem;
+}
+
+.dir2-hexa-3 {
+    margin-left: 4rem;
+    margin-top: -10rem;
+  
+}
+.main-card {
+
+  width: 15rem;
+  height: 15rem;
+  padding-top: 5%;
+padding-left: 10%;
+
+}
+
+.card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 70);
+    border-radius: 0.5rem;
+  left: 12%;
+  top: 20%;
+    width: 70%;
+    height: 120%;
+}
+.card-front {
+  position: absolute;
+  background-color:white;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  text-align: center;
+   width: 70%;
+    height: 120%;
+    padding: 3rem 2rem;
+}
+.card-front span{
+  font-size: clamp(4rem, 1.912vw + 3.388rem, 6rem);
+  color: rgb(0, 0, 60);
+  font-family: "Playfair Display", serif;
+}
+.card-front p{
+  font-size: clamp(0.6rem, 0.382vw + 0.478rem, 1rem);
+  font-weight: bold;
+  margin: 0 3rem;
+  margin-bottom: 1rem;
+}
+
+.card-front h3 {
+  font-size: clamp(1rem, 0.478vw + 0.847rem, 1.5rem);
+ text-align: right;
+ margin-right: 5%;
+} 
+
+.card-front h5{
+  font-size:clamp(0.6rem, 0.478vw + 0.447rem, 1.1rem);
+  color: grey;
+  text-align: right;
+ margin-right: 5%;
+}
+
+.team-section {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10%;
+}
+
+.team-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.team-content {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+.team-content h3 {
+  color: rgb(0, 0, 60);
+  font-size: clamp(1rem, 0.669vw + 0.786rem, 1.7rem);
+  margin-bottom: 1rem;
+}
+.team-content h2 {
+  width: 70%;
+  font-size: clamp(1.2rem, 0.765vw + 0.955rem, 2rem);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+.team-content p {
+  width: 70%;
+  color: grey;
+  font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem);
+  margin-bottom: 1rem;
+}
+
+
+.team-content button {
+  background: linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+  color: white;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: clamp(0.8rem, 0.357vw + 0.686rem, 1.2rem);
+  cursor: pointer;
+}
+
+.team-design {
+  padding-top: 5%;
+  width: 50%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.team-hexagon-1,
+.team-hexagon-2,
+.team-hexagon-3,
+.team-hexagon-4 {
+   width: 15rem;
+  height: 15rem;
+    background-image: url(/images/team-1.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    left: 0%;
+    position: absolute;
+    display: flex;
+}
+.team-hexagon-1 {
+    background-image: url(/images/team-1.png);
+    margin-top: -13rem;
+}
+.team-hexagon-2 {
+    background-image: url(/images/team-4.png);
+    margin-left: 12rem;
+    margin-top: -6rem;
+}
+
+.team-hexagon-3 {
+    background-image: url(/images/team-2.png);
+    margin-top: 8rem;
+    margin-left: 12rem;
+}
+
+.team-hexagon-4 {
+    margin-top:1rem;
+    background-image: url(/images/team-3.png);
+}
+
+
+
+.newsletter{
+  background-color: white;   
+  width: 60%;
+ margin-left: 20%;
+ margin-right: 10%;
+  height: auto;
+  border: 1px solid rgb(0, 0, 70);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+  border: none;
+  transform: translateY(50%);
+  z-index: 1;
+}
+
+.newsletter .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.newsletter-content {
+  width: 55%;
+  display: flex;
+   padding-top: 2rem;
+   padding-right: 5%;
+}
+
+.newsletter i{
+  font-size: clamp(2rem, 1.912vw + 0.888rem, 3.5rem);
+  color: rgb(0, 0, 70);
+  margin-right: 1rem;
+padding-left: 1rem;
+  padding-bottom: 2rem;
+   padding-top: 2rem;
+  padding-right: 1rem;
+}
+.newsletter-content h2 {
+  font-size: clamp(1.3rem, 0.478vw + 1.147rem, 1.8rem);
+  margin-bottom: 0.5rem;
+}
+.newsletter-content p {
+  font-size: clamp(0.7rem, 0.382vw + 0.578rem, 1.1rem);
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.newsletter-design {
+  width: 45%;
+  display: flex;
+}
+
+.newsletter-design input {
+  width: 80%;
+  height: 2rem;
+  padding: 0.5rem;
+  color: black;
+  font-size: clamp(0.8rem, 0.357vw + 0.686rem, 1.2rem);
+  border: 1px solid grey;
+  border-right: none;
+}
+
+
+.newsletter-design button {
+ background: linear-gradient(to top, rgb(0, 0, 70) 80%, rgb(67, 63, 99));
+  color: white;
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  font-size: clamp(0.8rem, 0.357vw + 0.686rem, 1.2rem);
+  cursor: pointer;
+  border-left: none;
+  height: 2rem;
+  width: 15%;
+
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+   background-color: rgb(211, 211, 211);
+  color: black;
+  padding: 2rem 0;
+  z-index: 2;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-content {
+  padding-left: 5%;
+  padding-top: 10%;
+  display: flex;
+  gap: 4rem;
+}
+
+
+.foot-1 ul,
+.foot-2 ul,
+.foot-3 ul,
+.foot-4 ul,
+.foot-5 ul {
+    list-style: none;
+}
+.foot-1 h4,
+.foot-2 h4,
+.foot-3 h4,
+.foot-4 h4,
+.foot-5 h4,
+.foot-6 h4 {
+   font-size: clamp(1rem, 0.287vw + 0.908rem, 1.3rem);
+   margin-bottom: 0.5rem;
+}
+
+.foot-1 ul li,
+.foot-2 ul li,
+.foot-3 ul li,
+.foot-4 ul li,
+.foot-5 ul li,
+.foot-6 ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.foot-1 ul li a,
+.foot-2 ul li a,
+.foot-3 ul li a,
+.foot-4 ul li a,
+.foot-5 ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: clamp(0.8rem, 0.287vw + 0.686rem, 1.2rem);
+}
+
+
+.foot-6 ul {
+    list-style: none;
+    display: flex;
+    font-size: clamp(1.5rem, 0.669vw + 1.286rem, 2.2rem);
+    gap: 2rem;
+    margin-top: 1rem;
+    
+}
+.foot-6 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.foot-6 img {
+    padding-top: 0.5rem;
+    cursor: pointer;
+}
+
+.sub-footer{
+  width: 100%;
+  color:gray;
+  background-color: rgb(211, 211, 211);
+}
+
+.sub-footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sub-footer p {
+  font-size: clamp(0.7rem, 0.382vw + 0.578rem, 1.1rem);
+ padding-top: 1rem;
+}

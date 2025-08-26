@@ -1,0 +1,1515 @@
+
+
+
+
+/* ------ 768 PX DEVICES ------  */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  header {
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .nav-links ul {
+    display: none;
+  }
+
+  #menu_icon {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: clamp(0.8rem, 0.446vw + 0.657rem, 1.3rem);
+    padding: 2%;
+  }
+
+  .hero-section img {
+    width: 100%;
+    height: 100vh;
+    filter: blur(1.3px) brightness(0.7);
+  }
+
+  .hero-content {
+    width: 60%;
+    top: 50%;
+    left: 20%;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .hero-content h1 {
+    line-height: 1;
+
+  }
+
+  .hero-content button {
+    width: 90%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.3rem;
+  }
+
+
+  .small-card {
+    width: 90%;
+  }
+
+  .card-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .small-card i {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+
+  .about-content {
+    padding-left: 5%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .icon-text {
+    text-align: left;
+
+  }
+
+  .about-design {
+    width: 80%;
+    padding-left: 2%;
+    padding-bottom: 16rem;
+  }
+
+  .main-hexagon {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 6rem;
+    margin-left: 7rem;
+  }
+
+  .mini-hexa-1,
+  .mini-hexa-2,
+  .mini-hexa-3,
+  .mini2-hexa-1,
+  .mini2-hexa-2,
+  .mini2-hexa-3 {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+  }
+
+  .mini-hexa-1 {
+    margin-left: 90px;
+    margin-top: 320px;
+  }
+
+  .mini-hexa-2 {
+    margin-left: 90px;
+    margin-top: 396px;
+  }
+
+  .mini-hexa-3 {
+    margin-left: 25px;
+    margin-top: 360px;
+  }
+
+  .mini2-hexa-1 {
+    margin-left: 300px;
+    margin-top: 68px;
+  }
+
+  .mini2-hexa-2 {
+    margin-left: 365px;
+    margin-top: 30px;
+  }
+
+  .mini2-hexa-3 {
+    margin-left: 365px;
+    margin-top: 105px;
+  }
+
+  .play-button {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.8rem;
+  }
+
+.service-section {
+    width: 100% !important;
+    padding: 3rem 0 !important;
+  }
+
+  .service-section .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+ .service-content {
+  width: 100% !important;
+  margin-left: 0 !important;
+  padding: 0 1rem 2rem 1rem !important;
+  text-align: center !important;
+  position: relative !important;
+  z-index: 2 !important;
+  background-color: rgb(211, 211, 211) !important;
+}
+
+  .service-content h2 {
+    width: 100% !important;
+  }
+
+  .service-content button {
+    width: 80% !important;
+    padding: 0.5rem !important;
+    margin: 1rem 0 !important;
+  }
+
+  
+ 
+.service-cards {
+   background-color: rgb(211, 211, 211) !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  flex: none !important;
+  min-width: auto !important;
+  padding: 0 1rem !important;
+  margin: 0 !important;
+  gap: 1.5rem !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  z-index: 1 !important;
+  height: auto;
+}
+  .s-card {
+    
+    width: calc(50% - 0.75rem) !important;
+    max-width: 350px !important;
+    min-width: 280px !important;
+    height: auto !important;
+    flex: 1 1 280px !important;
+    padding: 2rem 1rem !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+
+ 
+  .s-card i {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .s-card h3 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .s-card p {
+    margin: 0 0.5rem 1rem !important;
+    line-height: 1.4 !important;
+  }
+
+  .we-design {
+    width: 100% !important;
+    position: relative !important;
+    height: 350px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 2rem auto !important;
+    /* transform: translateX(10%) !important; */
+  }
+
+  .filled-hexagon-2-up,
+  .filled-hexagon-2-down,
+  .filled-hexagon-2-after {
+    margin: 0 !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    left: 50px !important;
+    top: 0 !important;
+  }
+
+  .mini-2nd-hexa-1,
+  .mini-2nd-hexa-2,
+  .mini-2nd-hexa-3,
+  .Mini-2nd-hexa-1,
+  .Mini-2nd-hexa-2,
+  .Mini-2nd-hexa-3,
+  .mini2-2nd-hexa-1,
+  .mini2-2nd-hexa-2,
+  .mini2-2nd-hexa-3 {
+    width: 4rem !important;
+    height: 4rem !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    margin: 0 !important;
+  }
+
+  .filled-hexagon-2-up {
+    margin-left: 3rem !important;
+
+  }
+
+  .mini-2nd-hexa-1 {
+    left: 15px !important;
+    top: 20px !important;
+  }
+
+  .mini-2nd-hexa-2 {
+    left: 65px !important;
+    top: 50px !important;
+  }
+
+  .mini-2nd-hexa-3 {
+    left: 15px !important;
+    top: 80px !important;
+  }
+
+  .filled-hexagon-2-down {
+    margin-left: 3rem !important;
+    margin-top: 4.5rem !important;
+  }
+
+  .main-hexagon-2 {
+    width: 200px !important;
+    height: 200px !important;
+    background-image: url(/images/hexa-2.jpg) !important;
+    object-fit: cover !important;
+    background-size: cover !important;
+    background-position: center !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    left: 130px !important;
+    top: 105px !important;
+    margin: 0 !important;
+    z-index: 1 !important;
+  }
+
+  .filled-hexagon-2-after {
+    margin-left: 11rem !important;
+    margin-top: 0.8rem !important;
+  }
+
+  .Mini-2nd-hexa-1 {
+    left: 15px !important;
+    top: 195px !important;
+  }
+
+  .Mini-2nd-hexa-2 {
+    left: 15px !important;
+    top: 255px !important;
+  }
+
+  .Mini-2nd-hexa-3 {
+    left: 65px !important;
+    top: 225px !important;
+  }
+
+  .mini2-2nd-hexa-1 {
+    left: 90px !important;
+    top: 130px !important;
+  }
+
+  .mini2-2nd-hexa-2 {
+    left: 90px !important;
+    top: 190px !important;
+  }
+
+  .mini2-2nd-hexa-3 {
+    left: 140px !important;
+    top: 160px !important;
+  }
+
+.we-content{
+    width: 100% !important;
+    padding: 0 1rem !important;
+    text-align: center !important;
+    padding-top: 2rem !important;
+  }
+  .we-content h2 {
+    width: 100% !important;
+  }
+  .we-content p {
+    width: 100% !important;
+    margin: 0.5rem 0 !important;
+    line-height: 1.4 !important;
+  }
+  .we-scale{
+    margin-top: 2rem !important;
+  }
+
+  .we-scale input{
+    width: 80% !important;
+    margin: 0.3rem auto !important;
+  }
+
+  .director-section{
+    width: 100% !important;
+    background-color: rgb(211, 211, 211) !important;
+    padding: 3rem 0 4rem 0 !important;
+    height: auto !important;
+  }
+
+  .director-section .container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .director-content {
+    width: 100% !important;
+    padding: 0 2rem 3rem 2rem !important;
+    text-align: center !important;
+  }
+
+  .director-content h3 {
+    color: rgb(0, 0, 60) !important;
+    font-size: clamp(1rem, 0.669vw + 0.786rem, 1.7rem) !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .director-content h2 {
+    width: 100% !important;
+    font-size: clamp(1.5rem, 1.071vw + 1.143rem, 2.5rem) !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .director-content p {
+    width: 100% !important;
+    color: rgb(0, 0, 60) !important;
+    font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem) !important;
+    margin-bottom: 1rem !important;
+  }
+
+
+  .director-design{
+    width: 100% !important;
+    position: relative !important;
+    height: 300px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .filled-hexagon-director {
+    margin: 0 !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    left: 50px !important;
+    top: -30px !important;
+  }
+
+  .dir-hexa-1,
+  .dir-hexa-2,
+  .dir-hexa-3 {
+    width: 4.5rem !important;
+    height: 4.5rem !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+  }
+
+  .dir-hexa-1 {
+    position: absolute !important;
+    left: 75px !important;
+    top: 20px !important;
+    margin: 0 !important;
+  }
+
+  .dir-hexa-2 {
+    position: absolute !important;
+    left: 130px !important;
+    top: -15px !important;
+    margin: 0 !important;
+  }
+
+  .dir-hexa-3 {
+    position: absolute !important;
+    left: 130px !important;
+    top: 55px !important;
+    margin: 0 !important;
+  }
+
+  .main-hexagon-director {
+    width: 8.5rem !important;
+    height: 8.5rem !important;
+    background-image: url(/images/hexa-3.jpg) !important;
+    object-fit: cover !important;
+    background-size: cover !important;
+    background-position: center !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    left: 20px !important;
+    top: 20px !important;
+    margin: 0 !important;
+    z-index: 2 !important;
+  }
+
+  .filled-hexagon-director-after {
+    margin: 0 !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  .dir2-hexa-1,
+  .dir2-hexa-2,
+  .dir2-hexa-3 {
+    width: 4.5rem !important;
+    height: 4.5rem !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+  }
+
+  .dir2-hexa-1 {
+    position: absolute !important;
+    left: 70px !important;
+    top: 150px !important;
+    margin: 0 !important;
+  }
+
+  .dir2-hexa-2 {
+    position: absolute !important;
+    left: 125px !important;
+    top: 115px !important;
+    margin: 0 !important;
+  }
+
+  .dir2-hexa-3 {
+    position: absolute !important;
+    left: 125px !important;
+    top: 185px !important;
+    margin: 0 !important;
+  }
+
+  .main-card {
+    width: 15rem !important;
+    height: 15rem !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    
+  }
+
+  .card-back{
+    position: absolute !important;
+    width: 70% !important;
+    height: 85% !important;
+    background-color: rgb(0, 0, 70) !important;
+    border-radius: 0.5rem !important;
+    left: 20% !important;
+    top: 20% !important;
+  }
+
+  .card-front {
+    position: absolute !important;
+    background-color: white !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 0.5rem !important;
+    text-align: center !important;
+    width: 70% !important;
+    height: 85% !important;
+    padding: 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    left: 18% !important;
+    top: 15% !important;
+  }
+
+  .card-front span{
+    font-size: clamp(3rem, 1.912vw + 2.388rem, 5rem) !important;
+    color: rgb(0, 0, 60) !important;
+    margin-left: 2rem !important;
+  }
+
+  .card-front p{
+    font-size: clamp(0.7rem, 0.382vw + 0.578rem, 1.1rem) !important;
+    font-weight: 600 !important;
+    margin: 1rem 1rem !important;
+    margin-left: 4rem !important;
+  }
+
+  .card-front h3 {
+    font-size: clamp(1.1rem, 0.478vw + 0.947rem, 1.6rem) !important;
+    text-align: right !important;
+    margin: 0 !important;
+    align-self: flex-end !important;
+  } 
+
+  .card-front h5{
+    font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem) !important;
+    color: grey !important;
+    text-align: right !important;
+    margin: 0 1rem 0 0 !important;
+    align-self: flex-end !important;
+  }
+
+  
+.team-section {
+    width: 100% !important;
+    padding: 3rem 0 !important;
+  }
+
+  .team-section .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+ .team-content {
+  width: 100% !important;
+  margin-left: 0 !important;
+  padding: 0 1rem 2rem 1rem !important;
+  text-align: center !important;
+  position: relative !important;
+}
+
+  .team-content h2 {
+    width: 100% !important;
+  }
+
+   .team-content p {
+    width: 100% !important;
+    font-size: clamp(0.7rem, 0.478vw + 0.547rem, 1.2rem) !important;
+    margin-bottom: 1rem !important;
+  }
+  .team-content button {
+    width: 80% !important;
+    padding: 0.5rem !important;
+    margin: 1rem 0 !important;
+  }
+
+  .team-design {
+    padding: 2rem 0 !important;
+    margin: 0 auto !important;
+    width: 300px !important; 
+    display: flex !important;
+    position: relative !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0 !important;
+    height: 250px !important;  
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .team-hexagon-1,
+  .team-hexagon-2,
+  .team-hexagon-3,
+  .team-hexagon-4 {
+    width: 180px !important;  
+    height: 180px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    display: flex !important;
+  }
+
+  .team-hexagon-1 {
+    background-image: url(/images/team-1.png) !important;
+    left: 15px !important; 
+    top: 0px !important;
+    margin: 0 !important;
+  }
+
+  .team-hexagon-2 {
+    background-image: url(/images/team-4.png) !important;
+    left: 15px !important;  
+    top: 165px !important;
+    margin: 0 !important;
+  }
+
+  .team-hexagon-3 {
+    background-image: url(/images/team-2.png) !important;
+    left: 155px !important;  
+    top: 250px !important;
+    margin: 0 !important;
+  }
+
+  .team-hexagon-4 {
+    background-image: url(/images/team-3.png) !important;
+    left: 155px !important;  
+    top: 85px !important;
+    margin: 0 !important;
+  }
+
+   .newsletter {
+    width: 80% !important;
+    margin: 2rem auto !important;
+    padding: 1rem 0 !important;
+  }
+
+  .newsletter .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .newsletter-content {
+    width: 100% !important;
+    padding: 1rem !important;
+    margin: 0 !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .newsletter i {
+    padding: 0 !important;
+    margin: 0 0 0.5rem 0 !important;
+  }
+
+  .newsletter-content h2 {
+    font-size: clamp(1.2rem, 1vw + 1rem, 1.6rem) !important;
+  }
+
+  .newsletter-content p {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: clamp(0.8rem, 0.5vw + 0.6rem, 1rem) !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .newsletter-design {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .newsletter-design input {
+    width: 75% !important;
+    height: 2rem !important;
+    border-radius: 0.3rem 0 0 0.3rem !important;
+  }
+
+  .newsletter-design button {
+    width: 25% !important;
+    height: 2rem !important;
+    border-radius: 0 0.3rem 0.3rem 0 !important;
+  }
+
+  .footer {
+    width: 100% !important;
+    padding: 2rem 0 !important;
+  }
+
+  .footer .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .footer-content {
+    flex-direction: column !important;
+   padding-top: 20%;
+    gap: 2rem !important;
+    width: 100% !important;
+  }
+
+  .foot-1,
+  .foot-2,
+  .foot-3,
+  .foot-4,
+  .foot-5,
+  .foot-6 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .foot-6 ul {
+    justify-content: center !important;
+  }
+
+  .sub-footer {
+    text-align: center !important;
+  }
+
+  .sub-footer .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .sub-footer p {
+    padding: 0.5rem 1rem !important;
+    width: 100% !important;
+  }
+
+
+
+}
+
+
+/* ------ 480 PX DEVICES ------  */
+
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  header {
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .logo img {
+    width: 80%;
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+  }
+
+  .nav-links ul {
+    display: none;
+  }
+
+  #menu_icon {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: clamp(1rem, 0.446vw + 0.657rem, 1.3rem);
+    padding: 2%;
+  }
+
+  .hero-section img {
+
+    width: 100%;
+    height: 100vh;
+
+    filter: blur(1px) brightness(0.7);
+  }
+
+  .hero-content {
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    line-height: 1;
+
+  }
+
+  .hero-content button {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.3rem;
+  }
+
+   .about-design {
+    width: 90%;
+    padding-left: 0;
+    padding-bottom: 10rem;
+  }
+
+  .main-hexagon {
+    width: 9rem;
+    height: 9rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+   
+  }
+
+  .mini-hexa-1,
+  .mini-hexa-2,
+  .mini-hexa-3,
+  .mini2-hexa-1,
+  .mini2-hexa-2,
+  .mini2-hexa-3 {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+  }
+
+  .mini-hexa-1 {
+    margin-left: 50px;
+    margin-top: 215px;
+  }
+
+  .mini-hexa-2 {
+    margin-left: 50px;
+    margin-top: 275px;
+   
+  }
+
+  .mini-hexa-3 {
+    margin-left: 1px;
+    margin-top: 245px;
+   
+  }
+
+  .mini2-hexa-1 {
+   margin-left: 195px;
+    margin-top: 55px;
+  }
+
+  .mini2-hexa-2 {
+    margin-left: 245px;
+    margin-top: 25px;
+  }
+
+  .mini2-hexa-3 {
+  margin-left: 245px;
+    margin-top: 85px;
+  }
+
+  .play-button {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.6rem;
+  }
+ 
+  .service-section {
+    width: 100% !important;
+    padding: 3rem 0 !important;
+  }
+
+  .service-section .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+ .service-content {
+  width: 100% !important;
+  margin-left: 0 !important;
+  padding: 0 1rem 2rem 1rem !important;
+  text-align: center !important;
+  position: relative !important;
+  z-index: 2 !important;
+  background-color: rgb(211, 211, 211) !important;
+}
+
+  .service-content h2 {
+    width: 100% !important;
+  }
+
+  .service-content button {
+    width: 100% !important;
+    padding: 0.5rem !important;
+    margin: 1rem 0 !important;
+  }
+
+
+ 
+.service-cards {
+   background-color: rgb(211, 211, 211) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+  flex: none !important;
+  min-width: auto !important;
+  padding: 0 1rem !important;
+  margin: 0 !important;
+  gap: 1.5rem !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  z-index: 1 !important;
+  height: auto;
+}
+  .s-card {
+    
+    width: 100% !important;
+    max-width: 300px !important;
+    min-width: auto !important;
+    height: auto !important;
+    flex: none !important;
+    padding: 2rem 1rem !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .s-card i {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .s-card h3 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .s-card p {
+    margin: 0 0.5rem 1rem !important;
+    line-height: 1.4 !important;
+  }
+
+ 
+  .we-design {
+    width: 100% !important;
+    position: relative !important;
+    height: 250px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 2rem auto !important;
+    transform: translateX(-5%) !important;
+  }
+
+  .filled-hexagon-2-up,
+  .filled-hexagon-2-down,
+  .filled-hexagon-2-after {
+    margin: 0 !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    left: 30px !important;
+    top: 0 !important;
+  }
+
+  .mini-2nd-hexa-1,
+  .mini-2nd-hexa-2,
+  .mini-2nd-hexa-3,
+  .Mini-2nd-hexa-1,
+  .Mini-2nd-hexa-2,
+  .Mini-2nd-hexa-3,
+  .mini2-2nd-hexa-1,
+  .mini2-2nd-hexa-2,
+  .mini2-2nd-hexa-3 {
+    width: 3rem !important;
+    height: 3rem !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    margin: 0 !important;
+  }
+
+   .filled-hexagon-2-up{
+    margin-left: 3rem !important;
+   }
+
+
+  .mini-2nd-hexa-1 {
+    left: 10px !important;
+    top: 15px !important;
+  }
+
+  .mini-2nd-hexa-2 {
+    left: 48px !important;
+    top: 38px !important;
+  }
+
+  .mini-2nd-hexa-3 {
+    left: 10px !important;
+    top: 60px !important;
+  }
+
+   .filled-hexagon-2-down{
+    margin-left: 3rem !important;
+    margin-top: 3.4rem !important;
+   }
+
+  .main-hexagon-2 {
+    width: 150px !important;
+    height: 150px !important;
+    background-image: url(/images/hexa-2.jpg) !important;
+    object-fit: cover !important;
+    background-size: cover !important;
+    background-position: center !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    left: 100px !important;
+    top: 80px !important;
+    margin: 0 !important;
+    z-index: 1 !important;
+  }
+
+   .filled-hexagon-2-after{
+    margin-left: 8.8rem !important;
+    margin-top: 0.5rem !important;
+   }
+
+  .Mini-2nd-hexa-1 {
+    left: 10px !important;
+    top: 148px !important;
+  }
+
+  .Mini-2nd-hexa-2 {
+   left: 10px !important;
+    top: 193px !important;
+  }
+
+  .Mini-2nd-hexa-3 {
+    left: 48px !important;
+    top: 170px !important;
+  }
+
+
+  .mini2-2nd-hexa-1 {
+    left: 70px !important;
+    top: 100px !important;
+  }
+
+  .mini2-2nd-hexa-2 {
+    left: 70px !important;
+    top: 145px !important;
+  }
+
+  .mini2-2nd-hexa-3 {
+    left: 108px !important;
+    top: 123px !important;
+  }
+  .we-content{
+    width: 100% !important;
+    padding: 0rem 1rem !important;
+    text-align: center !important;
+    padding-top: 5rem !important;
+  }
+  .we-content h2 {
+    width: 100% !important;
+  }
+  .we-content p {
+    width: 100% !important;
+    margin: 0.5rem 0 !important;
+    line-height: 1.4 !important;
+  }
+  .we-scale{
+    margin-top: 2rem !important;
+  }
+  .we-scale input{
+    width: 80% !important;
+    margin: 0.3rem auto !important;
+  }
+
+  .director-section{
+    width: 100% !important;
+    background-color: rgb(211, 211, 211) !important;
+    padding: 2rem 0 3rem 0 !important;
+    height: auto !important;
+  }
+
+  .director-section .container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .director-content {
+    width: 100% !important;
+    padding: 0 1rem 2rem 1rem !important;
+    text-align: center !important;
+  }
+
+  .director-content h3 {
+    color: rgb(0, 0, 60) !important;
+    font-size: clamp(0.9rem, 0.669vw + 0.686rem, 1.5rem) !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  .director-content h2 {
+    width: 100% !important;
+    font-size: clamp(1.3rem, 1.071vw + 1.043rem, 2.2rem) !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .director-content p {
+    width: 100% !important;
+    color: rgb(0, 0, 60) !important;
+    font-size: clamp(0.8rem, 0.478vw + 0.647rem, 1.1rem) !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+  }
+
+  .director-design{
+    width: 100% !important;
+    position: relative !important;
+    height: 250px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .filled-hexagon-director {
+    margin: 0 !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    left: 30px !important;
+    top: -8px !important;
+  }
+
+  .dir-hexa-1,
+  .dir-hexa-2,
+  .dir-hexa-3 {
+    width: 50px !important;
+    height: 50px !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+  }
+
+  .dir-hexa-1 {
+    position: absolute !important;
+    left: 50px !important;
+    top: 15px !important;
+    margin: 0 !important;
+  }
+
+  .dir-hexa-2 {
+    position: absolute !important;
+    left: 90px !important;
+    top: -10px !important;
+    margin: 0 !important;
+  }
+
+  .dir-hexa-3 {
+    position: absolute !important;
+    left: 90px !important;
+    top: 40px !important;
+    margin: 0 !important;
+  }
+
+  .main-hexagon-director {
+    width: 5.5rem !important;
+    height: 5.5rem !important;
+    background-image: url(/images/hexa-3.jpg) !important;
+    object-fit: cover !important;
+    background-size: cover !important;
+    background-position: center !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    left: 10px !important;
+    top: 30px !important;
+    margin: 0 !important;
+    z-index: 1 !important;
+  }
+
+  .filled-hexagon-director-after {
+    margin: 0 !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    left: 30px !important;
+    top: -35px !important;
+  }
+
+  .dir2-hexa-1,
+  .dir2-hexa-2,
+  .dir2-hexa-3 {
+    width: 3rem !important;
+    height: 3rem !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+  }
+
+  .dir2-hexa-1 {
+    position: absolute !important;
+    left: 12px !important;
+    top: 148px !important;
+    margin: 0 !important;
+  }
+
+  .dir2-hexa-2 {
+    position: absolute !important;
+    left: 50px !important;
+    top: 172px !important;
+    margin: 0 !important;
+  }
+
+  .dir2-hexa-3 {
+    position: absolute !important;
+    left: 50px !important;
+    top: 125px !important;
+    margin: 0 !important;
+  }
+
+  .main-card {
+    width: 8rem !important;
+    height: 10rem !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+
+  .card-back{
+    position: absolute !important;
+    width: 75% !important;
+    height: 80% !important;
+    background-color: rgb(0, 0, 70) !important;
+    border-radius: 0.5rem !important;
+    left: 20% !important;
+    top: 20% !important;
+  }
+
+  .card-front {
+      left: 18% !important;
+    position: absolute !important;
+    background-color: white !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 0.5rem !important;
+    text-align: center !important;
+    width: 75% !important;
+    height: 80% !important;
+    padding: 0.8rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .card-front span{
+    font-size: clamp(2.5rem, 1.912vw + 1.888rem, 4rem) !important;
+    color: rgb(0, 0, 60) !important;
+    margin-left: 2rem !important;
+  }
+
+  .card-front p{
+    font-size: clamp(0.6rem, 0.382vw + 0.478rem, 0.9rem) !important;
+    font-weight: 600 !important;
+    margin: 0.2rem 1rem !important;
+    margin-left: 5rem !important;
+    text-align: center !important;
+  }
+
+  .card-front h3 {
+    font-size: clamp(0.9rem, 0.478vw + 0.747rem, 1.3rem) !important;
+    text-align: right !important;
+    margin:0 !important;
+    align-self: flex-end !important;
+  } 
+
+  .card-front h5{
+    font-size: clamp(0.6rem, 0.478vw + 0.447rem, 1rem) !important;
+    color: grey !important;
+    text-align: right !important;
+    margin: 0 0.5rem 0 0 !important;
+    align-self: flex-end !important;
+  }
+
+
+  .team-section {
+    width: 100% !important;
+    padding: 3rem 0 !important;
+  }
+
+  .team-section .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+ .team-content {
+  width: 100% !important;
+  margin-left: 0 !important;
+  padding: 0 1rem 2rem 1rem !important;
+  text-align: center !important;
+  position: relative !important;
+}
+
+  .team-content h2 {
+    width: 100% !important;
+  }
+
+   .team-content p {
+    width: 100% !important;
+    font-size: clamp(0.8rem, 0.478vw + 0.647rem, 1.1rem) !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+  }
+
+
+  .team-content button {
+    width: 100% !important;
+    padding: 0.5rem !important;
+    margin: 1rem 0 !important;
+  }
+.team-design {
+    padding: 1rem 0 !important;
+    margin: 0 auto !important;
+    width: 250px !important; 
+    display: flex !important;
+    position: relative !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0 !important;
+    height: 160px !important; 
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-right: 20% !important;
+  }
+
+  .team-hexagon-1,
+  .team-hexagon-2,
+  .team-hexagon-3,
+  .team-hexagon-4 {
+    width: 160px !important; 
+    height: 160px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%) !important;
+    position: absolute !important;
+    display: flex !important;
+  }
+
+  .team-hexagon-1 {
+    background-image: url(/images/team-1.png) !important;
+    left: 15px !important;  
+    top: 0px !important;
+    margin: 0 !important;
+  }
+
+  .team-hexagon-2 {
+    background-image: url(/images/team-4.png) !important;
+    left: 15px !important; 
+    top: 150px !important;
+    margin: 0 !important;
+  }
+
+  .team-hexagon-3 {
+    background-image: url(/images/team-2.png) !important;
+    left: 140px !important;
+    top: 225px !important;
+    margin: 0 !important;
+  }
+
+  .team-hexagon-4 {
+    background-image: url(/images/team-3.png) !important;
+    left: 140px !important;  
+    top: 75px !important;
+    margin: 0 !important;
+  }
+   .newsletter {
+    width: 85% !important;
+    padding: 1rem !important;
+    margin: 2rem !important;
+    margin-right: 5% !important;
+  }
+
+  .newsletter .container {
+    flex-direction: column !important;
+    align-items: center !important;
+
+  }
+
+  .newsletter-content {
+      margin-top: 0% !important;
+    width: 100% !important;
+    padding: 1rem !important;
+    text-align: center !important;
+  }
+
+  .newsletter-design {
+    flex-direction: column !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .newsletter-design input {
+    width: 100% !important;
+    margin-bottom: 0.5rem !important;
+    border-right: 1px solid grey !important;
+  }
+
+  .newsletter-design button {
+    width: 100% !important;
+    border-radius: 0.3rem !important;
+    border-left: 1px solid grey !important;
+  }
+
+   .footer {
+  width: 100% !important;
+    align-items: center !important;
+    
+  }
+
+  .footer-content {
+    width: 100% !important;
+      padding-top: 10rem !important;
+    gap: 1.5rem !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .foot-1,
+  .foot-2,
+  .foot-3,
+  .foot-4,
+  .foot-5,
+  .foot-6 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .foot-6 ul {
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+  }
+
+  .foot-6 img {
+    padding: 0.5rem !important;
+  }
+
+  .sub-footer {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  .sub-footer .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .sub-footer p {
+    font-size: 0.8rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
